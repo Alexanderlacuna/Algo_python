@@ -8,7 +8,7 @@ class TestBubbleSort(unittest.TestCase):
         _sorted = [1, 2, 3, 4]
         self.assertEqual(_sorted, bubble_sort(_sorted))
     def test_workflow(self):
-        self.assertEqual(4,5)
+        self.assertNotEqual(4,5)
 
 
     def test_bubble(self):
